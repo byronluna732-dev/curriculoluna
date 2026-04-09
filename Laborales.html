@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laborales</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("IMG/fondo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+/* Barra de navegación vertical derecha */
+nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: black; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 0 0 5px;
+}
+
+nav a {
+    color: red;        
+    text-decoration: none;   
+    margin: 5px 0;         
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Contenedor de contenido */
+.contenido {
+    margin: auto;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px red;
+    max-width: 500px;
+}
+
+/* Estilo para video y audio */
+video, audio {
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    max-width: 100%;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <a href="Laborales.html">Laborales</a>
+    <a href="Presentacion.html">Presentación</a>
+    <a href="Generales.html">Generales</a>
+    <a href="Academicos.html">Académicos</a>
+    <a href="Hobbies.html">Hobbies</a>
+    <a href="Referencias.html">Referencias</a>
+</nav>
+
+<div class="contenido">
+    <h2>Audioexpres</h2>
+    
+    <video controls>
+        <source src="IMG/video.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+    
+    <audio controls>
+        <source src="IMG/audio.mp3" type="audio/mpeg">
+        Tu navegador no soporta el audio.
+    </audio>
+</div>
+
+</body>
+</html>
